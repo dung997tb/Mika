@@ -1,0 +1,92 @@
+name: Mika Vietnamese APK (preview)
+
+on:
+  push:
+    branches:
+      - feat/vietnamese-localization
+  workflow_dispatch:
+
+# This workflow intentionally publishes only preview builds from the owner's fork.
+permissions:
+  contents: write
+
+concurrency:
+  group: mika-vi-preview-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-and-publish:
+    name: Verify, build APK, publish public preview
+    if: github.repository == 'dung997tb/Mika' && github.ref == 'refs/heads/feat/vietnamese-localization'
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v7
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v4
+        with:
+          packages: 'platform-tools platforms;android-36 build-tools;35.0.0'
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v6
+        with:
+          cache-provider: basic
+
+      - name: Validate translations
+        run: |
+          python3 -m unittest discover -s tools/i18n -v
+          python3 tools/i18n/translations.py check
+
+      - name: Test and build debug APK
+        run: ./gradlew :app:testDebugUnitTest :app:assembleDebug --stacktrace
+
+      - name: Prepare downloadable files
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p dist
+          cp app/build/outputs/apk/debug/app-debug.apk dist/Mika-vi-preview-debug.apk
+          (cd dist && sha256sum Mika-vi-preview-debug.apk > SHA256SUMS.txt)
+          test -s dist/Mika-vi-preview-debug.apk
+
+      - name: Save APK as Actions artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: Mika-vi-preview-debug-${{ github.sha }}
+          path: |
+            dist/Mika-vi-preview-debug.apk
+            dist/SHA256SUMS.txt
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Publish APK to public GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          TAG="vi-preview-${GITHUB_SHA:0:12}"
+          gh release create "$TAG" \
+            dist/Mika-vi-preview-debug.apk \
+            dist/SHA256SUMS.txt \
+            --repo "$GITHUB_REPOSITORY" \
+            --target "$GITHUB_SHA" \
+            --title "Mika Tiếng Việt Preview ${GITHUB_SHA:0:7}" \
+            --notes "Vietnamese localization preview built and tested automatically from the feat/vietnamese-localization branch. This is a **debug-signed, unofficial preview**, not an upstream release. It may not upgrade an officially signed Mika installation. Uninstalling an existing installation can erase its data. SHA256SUMS.txt is included for integrity verification." \
+            --prerelease
+          echo "PUBLIC_APK=https://github.com/$GITHUB_REPOSITORY/releases/download/$TAG/Mika-vi-preview-debug.apk" >> "$GITHUB_STEP_SUMMARY"
+          echo "GitHub Releases: https://github.com/$GITHUB_REPOSITORY/releases" >> "$GITHUB_STEP_SUMMARY"
