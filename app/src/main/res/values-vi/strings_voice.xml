@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Chat composer: hold to talk -->
+    <string name="voice_placeholder_idle">Giữ để nói, chạm để nhập chữ</string>
+    <string name="voice_placeholder_busy">Giữ để nói với tác vụ, chạm để nhập chữ</string>
+    <string name="voice_placeholder_answer">Giữ để trả lời, chạm để nhập chữ</string>
+    <string name="voice_listening">Đang nghe</string>
+    <string name="voice_steer_to">Đang nhắn cho “%1$s”</string>
+    <string name="voice_engine_phone">Điện thoại</string>
+    <string name="voice_engine_phone_offline">Điện thoại · ngoại tuyến</string>
+    <string name="voice_say_now">Bạn cứ nói, Mika đang nghe…</string>
+    <string name="voice_recording">Đang ghi âm. Thả tay để chuyển thành văn bản…</string>
+    <string name="voice_foot_live">Thả tay · lời nói sẽ điền vào ô để bạn chỉnh sửa</string>
+    <string name="voice_foot_convert">Thả tay · chuyển giọng nói thành văn bản rồi điền vào ô</string>
+    <string name="voice_left">Còn %1$d giây</string>
+    <string name="voice_slide_cancel">Trượt lên để hủy</string>
+    <string name="voice_release_cancel">Thả tay để hủy</string>
+    <string name="voice_release_fill">Thả tay để điền</string>
+    <string name="voice_release_convert">Thả tay để chuyển đổi</string>
+    <string name="voice_converting">Đang chuyển thành văn bản…</string>
+    <string name="voice_no_match">Không nghe rõ. Hãy giữ nút rồi nói lại</string>
+    <string name="voice_busy">Dịch vụ nhận dạng giọng nói đang bận. Hãy thử lại sau</string>
+    <string name="voice_network">Không có mạng nên không thể chuyển thành văn bản</string>
+    <string name="voice_mic_unavailable">Không dùng được micro. Có thể ứng dụng khác đang sử dụng</string>
+    <string name="voice_hold_to_talk">Giữ để nói</string>
+    <string name="voice_mic_blocked_title">Vẫn không thể sử dụng micro</string>
+    <string name="voice_mic_blocked_body">Mika đã được cấp quyền ghi âm nhưng vẫn không thể ghi âm. Hãy kiểm tra công tắc Micro trong Cài đặt nhanh có bật không (Android 12 trở lên) và quyền micro của Mika có bị tắt trong phần quản lý quyền hệ thống không. Cũng có thể một ứng dụng khác đang dùng micro.</string>
+    <string name="voice_provider_failed">Không thể chuyển thành văn bản: %1$s</string>
+    <string name="voice_unavailable_title">Chưa thể nhập bằng giọng nói</string>
+    <string name="voice_unavailable_no_engine">Điện thoại không có dịch vụ nhận dạng giọng nói tích hợp và bạn chưa chọn mô hình chuyển giọng nói thành văn bản. Hãy chọn mô hình của nhà cung cấp trong Cài đặt › Mô hình AI › Chuyển giọng nói thành văn bản.</string>
+    <string name="voice_unavailable_system_gone">Đang chọn dịch vụ nhận dạng giọng nói tích hợp của điện thoại nhưng dịch vụ này hiện không khả dụng. Hãy chọn một dịch vụ khác trong Cài đặt › Mô hình AI › Chuyển giọng nói thành văn bản.</string>
+    <string name="voice_unavailable_system_silent">Dịch vụ nhận dạng giọng nói tích hợp không phản hồi nên không nhận được lời nói. Hãy chọn mô hình của nhà cung cấp trong Cài đặt › Mô hình AI › Chuyển giọng nói thành văn bản.</string>
+    <string name="voice_unavailable_provider_gone">Nhà cung cấp của mô hình giọng nói đã chọn đã bị xóa. Hãy chọn dịch vụ khác trong Cài đặt › Mô hình AI › Chuyển giọng nói thành văn bản.</string>
+    <string name="voice_unavailable_off">Đang tắt chuyển giọng nói thành văn bản. Hãy chọn một dịch vụ trong Cài đặt › Mô hình AI › Chuyển giọng nói thành văn bản.</string>
+    <string name="voice_go_pick">Chọn dịch vụ</string>
+    <string name="voice_permission_title">Mika cần quyền micro</string>
+    <string name="voice_permission_body">Mika cần ghi âm để nghe khi bạn giữ nút nói. Trước đó quyền đã bị từ chối nên điện thoại sẽ không hỏi lại. Hãy bật quyền micro cho Mika trong cài đặt hệ thống.</string>
+    <string name="voice_permission_open">Mở cài đặt</string>
+    <!-- Floating capsule: long press to talk -->
+    <string name="capsule_voice_talk">Nói</string>
+    <string name="capsule_voice_send">Gửi</string>
+    <string name="capsule_voice_answer_title">Đang trả lời Mika</string>
+    <string name="capsule_voice_continue_title">Tiếp tục “%1$s”</string>
+    <string name="capsule_voice_cancel">Hủy</string>
+    <string name="capsule_voice_edit">Chỉnh sửa</string>
+    <string name="capsule_voice_foot_send_up">Thả tay để gửi · kéo lên để hủy hoặc chỉnh sửa</string>
+    <string name="capsule_voice_foot_send_down">Thả tay để gửi · kéo xuống để hủy hoặc chỉnh sửa</string>
+    <string name="capsule_voice_foot_convert_up">Thả tay để chuyển thành văn bản và gửi · kéo lên để hủy hoặc sửa</string>
+    <string name="capsule_voice_foot_convert_down">Thả tay để chuyển thành văn bản và gửi · kéo xuống để hủy hoặc sửa</string>
+    <string name="capsule_voice_foot_edit">Thả tay · thẻ sẽ mở với văn bản đã điền sẵn</string>
+    <string name="capsule_voice_foot_cancel">Thả tay · bỏ nội dung này</string>
+    <string name="capsule_voice_foot_a11y">Khi xong, chọn “Gửi” trong các thao tác của thanh nổi</string>
+    <string name="capsule_voice_steered">Đã nhắn cho tác vụ: %1$s</string>
+    <string name="capsule_voice_answered">Đã trả lời: %1$s</string>
+    <string name="capsule_voice_sent">Đã gửi: %1$s</string>
+    <string name="capsule_voice_need_mic">Nhấn để cấp quyền micro trong Mika</string>
+    <string name="capsule_voice_not_ready">Chưa thể nhập bằng giọng nói · nhấn</string>
+    <string name="capsule_voice_open">Mở Mika</string>
+</resources>
