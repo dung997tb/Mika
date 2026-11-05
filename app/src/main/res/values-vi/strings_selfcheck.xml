@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="selfcheck_title">Tự kiểm tra khả năng tương thích</string>
+    <string name="selfcheck_row_sub">Kiểm tra chức năng nào hoạt động trên điện thoại và gửi báo cáo</string>
+    <string name="selfcheck_intro">Mất khoảng 1 phút. Quá trình không chạm vào ứng dụng khác, không thay đổi cài đặt và không sử dụng mạng. Vui lòng ở lại trang này trong khi kiểm tra.</string>
+    <string name="selfcheck_start">Bắt đầu</string>
+    <string name="selfcheck_again">Kiểm tra lại</string>
+    <string name="selfcheck_cancel">Hủy</string>
+    <string name="selfcheck_task_running">Đang có tác vụ chạy. Hãy bắt đầu tự kiểm tra sau khi tác vụ kết thúc.</string>
+    <string name="selfcheck_checks">Các mục kiểm tra</string>
+    <string name="selfcheck_report">Báo cáo</string>
+    <string name="selfcheck_copy">Sao chép báo cáo</string>
+    <string name="selfcheck_github">Báo cáo trên GitHub</string>
+    <string name="selfcheck_copied">Đã sao chép báo cáo</string>
+    <string name="selfcheck_github_copied">Đã sao chép báo cáo. Hãy dán vào mục “Self-check report” trên trang sắp mở.</string>
+    <string name="selfcheck_report_note">Báo cáo chỉ có mẫu điện thoại, phiên bản hệ thống và kết quả từng mục; không chứa tài khoản, danh sách ứng dụng hay nội dung cá nhân. Bạn có thể xem trước khi đăng.</string>
+
+    <string name="selfcheck_check_device">Thiết bị</string>
+    <string name="selfcheck_check_permissions">Quyền truy cập</string>
+    <string name="selfcheck_check_helper">Tiện ích hỗ trợ tích hợp</string>
+    <string name="selfcheck_check_display">Màn hình ảo</string>
+    <string name="selfcheck_check_launch">Mở ứng dụng</string>
+    <string name="selfcheck_check_reading">Đọc màn hình</string>
+    <string name="selfcheck_check_actions">Chạm và nhập văn bản</string>
+    <string name="selfcheck_check_alive">Duy trì hoạt động</string>
+    <string name="selfcheck_check_main">Không làm gián đoạn màn hình chính</string>
+    <string name="selfcheck_check_browser">Trình duyệt tích hợp</string>
+    <string name="selfcheck_check_sandbox">Sandbox</string>
+    <string name="selfcheck_check_copies">Bản sao ứng dụng</string>
+
+    <string name="selfcheck_status_pending">Đang chờ</string>
+    <string name="selfcheck_status_running">Đang kiểm tra</string>
+    <string name="selfcheck_status_pass">Đạt</string>
+    <string name="selfcheck_status_partial">Đạt một phần</string>
+    <string name="selfcheck_status_fail">Thất bại</string>
+    <string name="selfcheck_status_skipped">Đã bỏ qua</string>
+
+    <string name="selfcheck_line_pending">Chưa bắt đầu</string>
+    <string name="selfcheck_line_running">Đang kiểm tra…</string>
+    <string name="selfcheck_line_pass">Hoạt động</string>
+    <string name="selfcheck_line_needs">Đã bỏ qua: mục “%1$s” phải đạt trước</string>
+    <string name="selfcheck_line_other">Không đạt. Xem báo cáo để biết chi tiết.</string>
+
+    <string name="selfcheck_advice_too_old">Hệ thống cũ hơn Android 12 nên không hỗ trợ điều khiển điện thoại. Chat, web và sandbox vẫn hoạt động.</string>
+    <string name="selfcheck_advice_no_wireless">Hệ thống này không có Gỡ lỗi không dây. Bạn có thể khởi động chức năng điều khiển điện thoại từ máy tính qua USB.</string>
+    <string name="selfcheck_advice_phone_unavailable">Môi trường này không điều khiển được ứng dụng trên điện thoại (không có Tùy chọn nhà phát triển hoặc Gỡ lỗi không dây); chat, web, tệp và tính toán vẫn hoạt động.</string>
+    <string name="selfcheck_advice_a11y_off">Dịch vụ hỗ trợ tiếp cận đang tắt. Bật quyền của Mika trong Cài đặt › Điều khiển điện thoại.</string>
+    <string name="selfcheck_advice_a11y_restart">Đã bật Hỗ trợ tiếp cận nhưng dịch vụ không chạy. Hãy tắt rồi bật lại quyền của Mika trong cài đặt hệ thống.</string>
+    <string name="selfcheck_advice_notifications">Thông báo đang bị chặn nên bạn không thấy tiến trình tác vụ hoặc cảnh báo “Cần bạn hỗ trợ”.</string>
+    <string name="selfcheck_advice_battery">Mika bị hạn chế pin nên có thể bị dừng khi chạy nền. Bạn có thể bỏ hạn chế trong phần Khôi phục &amp; sửa chữa.</string>
+    <string name="selfcheck_advice_setup">Tiện ích hỗ trợ tích hợp chưa chạy. Hãy hoàn tất thiết lập trong Cài đặt › Điều khiển điện thoại rồi kiểm tra lại.</string>
+    <string name="selfcheck_advice_display">Không thể tạo màn hình ảo của Mika. Hãy kết nối lại tiện ích hỗ trợ và thử lại; nếu vẫn lỗi, vui lòng gửi báo cáo.</string>
+    <string name="selfcheck_advice_focus">Màn hình ảo của Mika không có vùng nhận nhập liệu độc lập, nên màn hình chính của bạn có thể bị mất focus trong chốc lát khi Mika làm việc. Các chức năng vẫn hoạt động.</string>
+    <string name="selfcheck_advice_launch">Không thể mở một trang trên màn hình ảo của Mika. Vui lòng gửi báo cáo.</string>
+    <string name="selfcheck_advice_on_main">Cài đặt hệ thống đã mở trên màn hình chính thay vì màn hình ảo của Mika. Vui lòng gửi báo cáo.</string>
+    <string name="selfcheck_advice_settings_in_use">Cài đặt hệ thống đang mở trên màn hình chính nên bước này không mở lại. Hãy đóng Cài đặt rồi kiểm tra lại.</string>
+    <string name="selfcheck_advice_read">Không thể đọc các thành phần điều khiển của trang. Hãy tắt và bật lại Hỗ trợ tiếp cận của Mika rồi kiểm tra lại.</string>
+    <string name="selfcheck_advice_blank">Hình ảnh trên màn hình ảo hoàn toàn đen hoặc trống. Vui lòng gửi báo cáo.</string>
+    <string name="selfcheck_advice_action">Một số thao tác không có hiệu lực (xem báo cáo). Vui lòng báo lỗi này.</string>
+    <string name="selfcheck_advice_frames">Màn hình ảo ngừng cập nhật sau một thời gian, khiến tác vụ có thể bị kẹt. Vui lòng gửi báo cáo.</string>
+    <string name="selfcheck_advice_main">Màn hình chính đã thay đổi trong khi kiểm tra. Nếu bạn vẫn ở trang này, vui lòng gửi báo cáo.</string>
+    <string name="selfcheck_advice_no_webview">Hệ thống không có WebView khả dụng nên trình duyệt tích hợp không hoạt động. Hãy cài hoặc cập nhật thành phần WebView của hệ thống.</string>
+    <string name="selfcheck_advice_web">Trình duyệt tích hợp không thể đọc hoặc nhấn trên trang thử nghiệm cục bộ. Vui lòng gửi báo cáo.</string>
+    <string name="selfcheck_advice_sandbox_unsupported">Sandbox chỉ hỗ trợ điện thoại ARM 64-bit.</string>
+    <string name="selfcheck_advice_sandbox_not_prepared">Sandbox chưa được chuẩn bị. Nó sẽ được thiết lập khi có tác vụ đầu tiên cần dùng; sau đó hãy kiểm tra lại.</string>
+    <string name="selfcheck_advice_sandbox_failed">Lệnh trong sandbox không trả về kết quả mong đợi. Bạn có thể đặt lại môi trường trong Tệp &amp; môi trường tính toán rồi thử lại.</string>
+    <string name="selfcheck_advice_timeout">Mục này kiểm tra quá lâu. Hãy chạy lại; nếu vẫn quá thời gian, vui lòng gửi báo cáo.</string>
+    <string name="selfcheck_advice_error">Mục này gặp lỗi khi kiểm tra. Vui lòng gửi báo cáo.</string>
+    <string name="selfcheck_advice_out_of_time">Quá trình tự kiểm tra đã hết thời gian trước khi đến mục này.</string>
+    <string name="selfcheck_advice_cancelled">Đã hủy.</string>
+
+    <string name="selfcheck_target_title">Trang tự kiểm tra Mika</string>
+    <string name="selfcheck_target_note">Đây là trang thử nghiệm riêng của Mika. Quá trình tự kiểm tra sẽ chạm và nhập tại đây, không ảnh hưởng đến ứng dụng khác.</string>
+    <string name="selfcheck_target_taps">Số lần chạm: %1$d</string>
+    <string name="selfcheck_target_button">Nhấn vào đây</string>
+    <string name="selfcheck_target_input">Nhập tại đây</string>
+    <string name="selfcheck_target_tick">Lượt %1$d</string>
+    <string name="selfcheck_target_row">Dòng %1$d</string>
+</resources>
