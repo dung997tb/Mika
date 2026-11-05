@@ -26,6 +26,7 @@ class StringResourcesTest {
         Other("values-ru", Locale.forLanguageTag("ru"), setOf("one", "few", "many", "other")),
         // 印尼语的资源文件夹沿用安卓的旧语言代码 in
         Other("values-in", Locale.forLanguageTag("id"), setOf("other")),
+        Other("values-vi", Locale.forLanguageTag("vi"), setOf("other")),
     )
 
     private val en = ResFileTexts.english
