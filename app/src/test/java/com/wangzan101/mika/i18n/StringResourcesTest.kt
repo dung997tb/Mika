@@ -152,6 +152,8 @@ class StringResourcesTest {
         // 印尼语:现行代码和安卓 Locale 还在用的旧代码都认
         assertEquals(AppLanguage.Indonesian, of("id-ID"))
         assertEquals(AppLanguage.Indonesian, of("in-ID"))
+        assertEquals(AppLanguage.Vietnamese, of("vi"))
+        assertEquals(AppLanguage.Vietnamese, of("vi-VN"))
     }
 
     @Test
