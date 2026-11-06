@@ -10,12 +10,16 @@ It works on a hidden background screen, so you can keep using your phone.
 
 <a href="https://github.com/wangzan101/Mika/releases/latest"><img src="https://img.shields.io/badge/Download%20APK-Android%2011%2B-2ea043?style=for-the-badge&logo=android&logoColor=white" alt="Download APK" /></a>
 
+<a href="https://github.com/dung997tb/Mika/releases"><img src="https://img.shields.io/badge/Mika%20Ti%E1%BA%BFng%20Vi%E1%BB%87t-Preview%20APK-1976D2?style=for-the-badge&logo=android&logoColor=white" alt="Download Vietnamese preview APK" /></a>
+
 <a href="https://github.com/wangzan101/Mika/stargazers"><img src="https://img.shields.io/github/stars/wangzan101/Mika?style=flat&logo=github&label=Star&color=1f6feb" alt="stars" /></a>
 <a href="https://github.com/wangzan101/Mika/releases"><img src="https://img.shields.io/github/downloads/wangzan101/Mika/total?label=downloads&color=2ea043" alt="downloads" /></a>
 <a href="https://github.com/wangzan101/Mika/releases/latest"><img src="https://img.shields.io/github/v/release/wangzan101/Mika?include_prereleases&label=version" alt="version" /></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-lightgrey" alt="license" /></a>
 
-English · [简体中文](docs/readme/README.zh-CN.md) · [繁體中文](docs/readme/README.zh-Hant.md) · [日本語](docs/readme/README.ja.md) · [한국어](docs/readme/README.ko.md) · [Español](docs/readme/README.es.md)
+English · [简体中文](docs/readme/README.zh-CN.md) · [繁體中文](docs/readme/README.zh-Hant.md) · [日本語](docs/readme/README.ja.md) · [한국어](docs/readme/README.ko.md) · [Español](docs/readme/README.es.md) · [Tiếng Việt](docs/readme/README.vi.md)
+
+<sub>Vietnamese localization is available as an unofficial <a href="https://github.com/dung997tb/Mika/releases">preview APK</a> from this fork. The debug-signed APK may not update the official installation.</sub>
 
 <br/>
 
