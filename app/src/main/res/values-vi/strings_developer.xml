@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dev_adaptive">Ưu tiên đọc thành phần giao diện, dùng ảnh khi cần</string>
+    <string name="dev_adaptive_sub">Không gửi ảnh nếu cây giao diện đã cung cấp đủ thông tin; chỉ gửi ảnh khi cần thiết</string>
+    <string name="dev_inline">Đọc thay đổi màn hình sau mỗi thao tác</string>
+    <string name="dev_inline_sub">Quan sát nhanh màn hình sau từng thao tác để tránh một lần đọc riêng</string>
+    <string name="dev_batch">Gộp nhiều bước khi đã chắc chắn</string>
+    <string name="dev_batch_sub">Thực hiện liên tiếp những bước chắc chắn mà không cần hỏi lại mô hình AI</string>
+    <string name="dev_deep_links">Mở trực tiếp trang đích</string>
+    <string name="dev_deep_links_sub">Dùng liên kết để mở thẳng trang trong ứng dụng thay vì nhấn qua từng màn hình</string>
+    <string name="dev_light">Giao bước đơn giản cho mô hình nhẹ</string>
+    <string name="dev_light_sub">Mô hình nhẹ xử lý các bước đơn giản nhanh hơn; mô hình chính đảm nhiệm các bước khó</string>
+    <string name="dev_replay">Lặp lại quy trình đã thành công</string>
+    <string name="dev_replay_sub">Tái sử dụng quy trình đã lưu; nếu màn hình không khớp, chuyển lại cho mô hình AI xử lý</string>
+    <string name="dev_parallel">Chạy đồng thời nhiều cuộc trò chuyện</string>
+    <string name="dev_parallel_sub">Tác vụ từ các cuộc trò chuyện khác nhau có màn hình ảo riêng và có thể chạy cùng lúc</string>
+    <string name="dev_compaction">Tóm tắt có cấu trúc cho tác vụ dài</string>
+    <string name="dev_compaction_sub">Khi cần rút gọn nhiều bước, ghi lại mục tiêu, thông tin quan trọng, tiến độ và bước tiếp theo</string>
+    <string name="dev_group">Cách Mika hoạt động</string>
+    <string name="dev_autonomy">Chế độ tự chủ</string>
+    <string name="dev_autonomy_sub">Khi bật, Mika tự hoàn tất mà không hỏi ngay cả trước khi thanh toán; khi tắt, Mika chỉ hỏi trước khi thanh toán</string>
+    <string name="dev_note">Các tùy chọn này ảnh hưởng đến cách thức và tốc độ Mika làm việc. Thông thường nên giữ giá trị mặc định.</string>
+    <string name="dev_grounding">Đã xác minh khả năng định vị bằng hình ảnh</string>
+    <string name="dev_grounding_sub">Chỉ bật sau khi đã kiểm tra mô hình thị giác %1$s xác định chính xác vị trí. Nếu tắt, Mika phải có thêm bằng chứng trước khi nhấn vào vị trí do mô hình đánh dấu.</string>
+    <string name="dev_speed">Tốc độ</string>
+    <string name="dev_experiments">Thử nghiệm</string>
+    <string name="dev_run_log">Nhật ký thực thi</string>
+</resources>
