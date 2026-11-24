@@ -1,4 +1,4 @@
-<!-- translated-from: README.md @ 7b09b8113580 -->
+<!-- translated-from: README.md @ 05d44c4e7799 -->
 <div align="center">
 
 <img src="../media/logo.png" alt="Mika" width="88" />
@@ -26,7 +26,7 @@ Trabaja en una pantalla en segundo plano que no ves, así que puedes seguir usan
 
 <br/>
 
-[English](../../README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · Español · [Türkçe](README.tr.md)
+[English](../../README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · Español · [Türkçe](README.tr.md) · [Tiếng Việt](README.vi.md)
 
 <sub>Esta versión en español es una traducción del original en chino simplificado. Si ves algo que suena raro o que no coincide con el original, te agradecemos que lo corrijas con un PR.</sub>
 

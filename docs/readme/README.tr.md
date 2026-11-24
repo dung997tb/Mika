@@ -1,4 +1,4 @@
-<!-- translated-from: README.md @ 7b09b8113580 -->
+<!-- translated-from: README.md @ 05d44c4e7799 -->
 <div align="center">
 
 <img src="../media/logo.png" alt="Mika" width="88" />
@@ -27,7 +27,7 @@
 
 <br/>
 
-[English](../../README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · Türkçe
+[English](../../README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · Türkçe · [Tiếng Việt](README.vi.md)
 
 <br/>
 
